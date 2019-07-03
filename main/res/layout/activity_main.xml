@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgmama"
+        android:src="@drawable/mama"
+        />
+
+    <TextView
+        android:id="@+id/happy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="HAPPY BIRTHDAY "
+        android:textColor="#FF00FF"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/happy"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="-1dp"
+        android:text="MAMA  "
+        android:textColor="#FF00FF"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnPesan"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:text="TAMPILKAN PESAN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>
